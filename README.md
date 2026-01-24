@@ -3,7 +3,7 @@
 A modern, responsive portfolio website showcasing my data analytics projects and skills.
 
 ## 🚀 Live Demo
-[View Portfolio](https://nisargpatel.github.io/portfolio) *(Update with your actual GitHub username)*
+[View Portfolio](https://nishu1717.github.io/portfolio) *(Will be live once you upload the files)*
 
 ## 🛠️ Built With
 - **HTML5** - Semantic markup
@@ -20,12 +20,10 @@ A modern, responsive portfolio website showcasing my data analytics projects and
 - **Accessibility** - Proper contrast and semantic HTML
 
 ## 📊 Projects Showcased
-- Credit Card Fraud Detection
-- Smart City Analytics Dashboard
-- E-Commerce Customer Analytics
-- Education Data Analysis
-- Loan Process Optimization
-- Walmart Sales Forecasting
+- **Finance Risk & Fraud Detection** - XGBoost fraud detection with $917k projected savings
+- **Student Churn Early Warning System** - 10M+ OULAD records analysis with 70% precision
+- **Loan Process Optimization** - Process mining and optimization using BPI 2017 dataset
+- **Olist E-Commerce Analytics** - RFM segmentation and CLV modeling
 
 ## 🎨 Design
 - **Color Palette**: Modern dark theme with blue, cyan, purple, and emerald accents
@@ -39,7 +37,7 @@ This portfolio is deployed using GitHub Pages. To deploy your own version:
 1. Fork this repository
 2. Update the content with your information
 3. Enable GitHub Pages in repository settings
-4. Your site will be available at `https://yourusername.github.io/portfolio`
+4. Your site will be available at `https://nishu1717.github.io/portfolio`
 
 ## 📝 Customization
 To customize this portfolio for yourself:
@@ -56,7 +54,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📧 Contact
 - **Email**: nisargpatel1717@gmail.com
 - **LinkedIn**: [Connect with me](https://linkedin.com/in/nisarg-patel-data)
-- **GitHub**: [Check out my projects](https://github.com/nisargpatel)
+- **GitHub**: [Check out my projects](https://github.com/nishu1717)
 
 ---
 Made with ❤️ and lots of ☕
