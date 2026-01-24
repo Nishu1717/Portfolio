@@ -193,28 +193,14 @@ window.addEventListener('load', () => {
 });
 // Add some fun interactions for a 23-year-old's portfolio
 document.addEventListener('DOMContentLoaded', function() {
-    // Add click counter for fun stats
+    // Add click counter for stats interaction
     let clickCount = 0;
-    const infinityStats = document.querySelector('.stat-item:nth-child(4) h3');
-    if (infinityStats) {
-        infinityStats.addEventListener('click', function() {
+    const commitmentStats = document.querySelector('.stat-item:nth-child(4) h3');
+    if (commitmentStats) {
+        commitmentStats.addEventListener('click', function() {
             clickCount++;
-            if (clickCount === 1) {
-                this.textContent = '∞+1';
-                setTimeout(() => {
-                    this.textContent = '∞';
-                }, 2000);
-            } else if (clickCount === 5) {
-                this.textContent = '🚀';
-                setTimeout(() => {
-                    this.textContent = '∞';
-                }, 2000);
-            } else if (clickCount === 10) {
-                this.textContent = '🎉';
-                showNotification('You found the easter egg! 🥚✨', 'success');
-                setTimeout(() => {
-                    this.textContent = '∞';
-                }, 3000);
+            if (clickCount === 5) {
+                showNotification('Thank you for your interest in my work! 🎯', 'success');
             }
         });
     }
