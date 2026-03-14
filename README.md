@@ -4,7 +4,7 @@ A clean, minimal portfolio website built to showcase data analytics projects, te
 
 ## Live Demo
 
-[View Portfolio](https://nishu1717.github.io/portfolio)
+[View Portfolio](https://nishu1717.github.io/Portfolio/)
 
 ## Built With
 
