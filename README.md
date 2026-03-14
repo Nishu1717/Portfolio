@@ -1,60 +1,68 @@
-# Nisarg Patel - Data Analytics Portfolio
+# Nisarg Patel — Data Analyst Portfolio
 
-A modern, responsive portfolio website showcasing my data analytics projects and skills.
+A clean, minimal portfolio website built to showcase data analytics projects, technical skills, and contact information. Designed for recruiters and hiring managers who need to quickly assess capabilities.
 
-## 🚀 Live Demo
-[View Portfolio](https://nishu1717.github.io/portfolio) *(Will be live once you upload the files)*
+## Live Demo
 
-## 🛠️ Built With
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with CSS Grid & Flexbox
-- **JavaScript** - Interactive functionality
-- **Font Awesome** - Icons
-- **Google Fonts** - Typography (Inter & Fira Code)
+[View Portfolio](https://nishu1717.github.io/portfolio)
 
-## ✨ Features
-- **Responsive Design** - Works on all devices
-- **Dark Theme** - CS student-friendly aesthetic
-- **Interactive Elements** - Smooth animations and hover effects
-- **Modern UI** - Glassmorphism and gradient effects
-- **Accessibility** - Proper contrast and semantic HTML
+## Built With
 
-## 📊 Projects Showcased
-- **Finance Risk & Fraud Detection** - XGBoost fraud detection with $917k projected savings
-- **Student Churn Early Warning System** - 10M+ OULAD records analysis with 70% precision
-- **Loan Process Optimization** - Process mining and optimization using BPI 2017 dataset
-- **Olist E-Commerce Analytics** - RFM segmentation and CLV modeling
+- **HTML5** — semantic markup, no frameworks
+- **CSS3** — CSS Grid, Flexbox, custom properties, responsive design
+- **JavaScript** — minimal, vanilla JS (mobile nav toggle + scroll state)
+- **Google Fonts** — Cormorant Garamond (headings), DM Mono (labels & body)
 
-## 🎨 Design
-- **Color Palette**: Modern dark theme with blue, cyan, purple, and emerald accents
-- **Typography**: Inter for body text, Fira Code for code elements
-- **Layout**: Card-based design with subtle animations
-- **Responsive**: Mobile-first approach
+No external JS libraries, no build tools, no third-party dependencies.
 
-## 📱 Deployment
-This portfolio is deployed using GitHub Pages. To deploy your own version:
+## Page Structure
 
-1. Fork this repository
-2. Update the content with your information
-3. Enable GitHub Pages in repository settings
-4. Your site will be available at `https://nishu1717.github.io/portfolio`
+| Section | Description |
+|---------|-------------|
+| **Hero** | Name, positioning statement, about paragraph, resume/project CTAs, profile photo |
+| **Projects** | 2-column card grid with outcome descriptions, tool tags, and GitHub links |
+| **Skills** | 6 grouped tiles — Languages, Libraries & ML, Geospatial, BI & Visualization, Data & Tools, Domains |
+| **Contact** | Info + icon links on left, contact form on right |
 
-## 📝 Customization
-To customize this portfolio for yourself:
+## Projects Showcased
 
-1. Update personal information in `index.html`
-2. Replace project links with your actual repositories
-3. Add your resume PDF to the `assets/` folder
-4. Update social media links
-5. Modify colors in `styles.css` if desired
+1. **Milton Transit Desert Analysis** — Spatial analysis of transit coverage gaps using GTFS + Census data
+2. **Finance Risk & Fraud Detection** — XGBoost fraud detection with $917k projected savings
+3. **Student Churn Early Warning** — 10M+ OULAD clickstream records, 70% precision by Week 4
+4. **Loan Process Optimization** — Process mining on BPI 2017 dataset, 90% time reduction proposed
+5. **Olist E-Commerce Analytics** — RFM segmentation and Customer Lifetime Value modeling
 
-## 📄 License
-This project is open source and available under the [MIT License](LICENSE).
+## Design
 
-## 📧 Contact
-- **Email**: nisargpatel1717@gmail.com
-- **LinkedIn**: [Connect with me](https://linkedin.com/in/nisarg-patel-data)
-- **GitHub**: [Check out my projects](https://github.com/nishu1717)
+- **Background:** near-black (`#0d0d0d`)
+- **Text:** warm off-white (`#f0ece4`)
+- **Primary accent:** gold (`#c9a96e`)
+- **Secondary accent:** muted teal (`#4a7c6f`)
+- **Transitions:** CSS-only, 0.2s ease — no animation libraries
 
----
-Made with ❤️ and lots of ☕
+## File Structure
+
+```
+Portfolio/
+├── index.html        # Single-page markup
+├── styles.css        # All styles, mobile-first responsive
+├── script.js         # Mobile nav toggle + navbar scroll background
+├── assets/
+│   ├── profile.jpg   # Profile photo
+│   └── resume.pdf    # Downloadable resume
+└── README.md
+```
+
+## Deployment
+
+Deployed via GitHub Pages:
+
+1. Push to the repository
+2. Enable GitHub Pages in Settings → Pages → Source: main branch
+3. Site available at `https://nishu1717.github.io/portfolio`
+
+## Contact
+
+- **Email:** nisargpatel1717@gmail.com
+- **LinkedIn:** [Nisarg Patel](https://www.linkedin.com/in/nisarg-patel-25b876234/)
+- **GitHub:** [Nishu1717](https://github.com/Nishu1717)

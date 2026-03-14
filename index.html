@@ -1,295 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nisarg Patel - Data Analytics Portfolio</title>
+    <title>Nisarg Patel — Data Analyst Portfolio</title>
+    <meta name="description" content="Portfolio of Nisarg Patel, MS Data Analytics student open to Summer 2026 co-ops and internships.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
+
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home">Nisarg Patel</a>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
+            <a href="#hero" class="nav-logo">NP</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="hamburger">
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Hello,<br>I'm <span class="highlight">Nisarg Patel</span></h1>
-            <h2>Master's in Data Analytics Student</h2>
-            <p>Turning messy datasets into meaningful stories and actionable insights. Currently exploring the intersection of machine learning, business intelligence, and real-world problem solving.</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">Check Out My Projects</a>
-                <a href="assets/resume.pdf" class="btn btn-secondary" target="_blank">Grab My Resume</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <div class="profile-image">
-                <img src="assets/profile.jpg" alt="Nisarg Patel - Data Analytics Student" />
-            </div>
-        </div>
-    </section>    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a 23-year-old data enthusiast currently pursuing my Master's in Data Analytics at University of Niagara Falls. What started as curiosity about "why do people buy what they buy?" has evolved into a passion for uncovering hidden patterns in complex datasets.</p>
-                    <p>When I'm not developing Python applications or building analytical dashboards, you'll find me exploring the latest machine learning techniques, participating in data science competitions, and staying current with industry best practices and emerging technologies.</p>
-                    <p>My goal? To bridge the gap between technical analysis and business strategy, making data accessible and actionable for decision-makers.</p>
-                    <div class="education">
-                        <h3>Education</h3>
-                        <div class="education-item">
-                            <h4>Master of Data Analytics</h4>
-                            <p>University of Niagara Falls | Expected Graduation: 2027</p>
-                            <small>Focus: Machine Learning, Business Intelligence, Statistical Modeling</small>
-                        </div>
-                        <div class="education-item">
-                            <h4>Bachelor's Degree</h4>
-                            <p>University of Windsor | Graduation: 2024</p>
-                            <small>Foundation in quantitative analysis and research methods</small>
-                        </div>
-                    </div>
+    <!-- Section 1 — Hero -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Nisarg Patel</h1>
+                <p class="hero-tagline">Data Analyst · MS in Data Analytics · Open to Summer 2026 Co-ops and Internships</p>
+                <p class="hero-about">Master's student in Data Analytics at the University of Niagara Falls, Canada (expected Jan 2027). Skilled in Python, SQL, R, Power BI, Tableau, GIS, and optimization with Gurobi. I work across domains — spatial analysis, forecasting, financial analytics, and supply-chain optimization. Based in St. Catharines, ON — open to remote or in-person co-ops.</p>
+                <div class="hero-ctas">
+                    <a href="assets/resume.pdf" class="btn btn-primary" target="_blank">Download Resume</a>
+                    <a href="#projects" class="btn btn-ghost">View Projects</a>
                 </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <h3>4+</h3>
-                        <p>GitHub Repositories</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>10+</h3>
-                        <p>Tools & Technologies</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>3+</h3>
-                        <p>Years Learning</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>100%</h3>
-                        <p>Commitment Level</p>
-                    </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/profile.jpg" alt="Nisarg Patel" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3 — Projects -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+            <!-- Milton Transit Desert -->
+            <div class="project-card">
+                <h3 class="project-title">Milton Transit Desert Analysis</h3>
+                <p class="project-outcome">Mapped transit coverage gaps across Milton, ON — 22.9 % of residents live in transit deserts, with 47 of 171 zones underserved at the 400 m buffer threshold.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">GeoPandas</span>
+                    <span class="tag">Folium</span>
+                    <span class="tag">GTFS</span>
+                    <span class="tag">Shapely</span>
+                    <span class="tag">Census</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Nishu1717/milton-transit-desert" target="_blank">GitHub →</a>
+                    <a href="https://nishu1717.github.io/milton-transit-desert/outputs/milton_transit_desert_map.html" target="_blank">Live Map →</a>
+                </div>
+            </div>
+
+            <!-- Finance Risk & Fraud Detection -->
+            <div class="project-card">
+                <h3 class="project-title">Finance Risk &amp; Fraud Detection</h3>
+                <p class="project-outcome">End-to-end XGBoost fraud detection system optimized for cost-benefit analysis. Projected $917 k in savings with SHAP-based explainability for business-centric decisions.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">XGBoost</span>
+                    <span class="tag">SHAP</span>
+                    <span class="tag">Cost-Benefit Analysis</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Nishu1717/Finance-Risk-Fraud-Detection" target="_blank">GitHub →</a>
+                </div>
+            </div>
+
+            <!-- Student Churn Early Warning -->
+            <div class="project-card">
+                <h3 class="project-title">Student Churn Early Warning</h3>
+                <p class="project-outcome">Built an early-warning system from 10 M+ OULAD clickstream records. Achieves 70 % precision by Week 4 — behavioral momentum proved 5× stronger than demographics.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Random Forest</span>
+                    <span class="tag">Pandas</span>
+                    <span class="tag">Educational Analytics</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Nishu1717/OULAD-Student-Churn-Analysis" target="_blank">GitHub →</a>
+                </div>
+            </div>
+
+            <!-- Loan Process Optimization -->
+            <div class="project-card">
+                <h3 class="project-title">Loan Process Optimization</h3>
+                <p class="project-outcome">Process-mined a bank's loan lifecycle on the BPI 2017 dataset. Identified bottlenecks and proposed AI-OCR integration to cut processing time by 90 %.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Process Mining</span>
+                    <span class="tag">Optimization</span>
+                    <span class="tag">Load Balancing</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Nishu1717/Loan-Process-Optimisation" target="_blank">GitHub →</a>
+                </div>
+            </div>
+
+            <!-- Olist E-Commerce Analytics -->
+            <div class="project-card">
+                <h3 class="project-title">Olist E-Commerce Analytics</h3>
+                <p class="project-outcome">RFM segmentation, Customer Lifetime Value modeling, and logistics-performance correlation analysis on the Brazilian Olist e-commerce dataset.</p>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">RFM Analysis</span>
+                    <span class="tag">CLV Modeling</span>
+                    <span class="tag">Jupyter</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/Nishu1717/olist-ecommerce-analytics" target="_blank">GitHub →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section 4 — Skills -->
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-tile">
+                <h4 class="skill-category">Languages</h4>
+                <div class="skill-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">R</span>
+                </div>
+            </div>
+            <div class="skill-tile">
+                <h4 class="skill-category">Libraries &amp; ML</h4>
+                <div class="skill-tags">
+                    <span class="tag">Pandas</span>
+                    <span class="tag">NumPy</span>
+                    <span class="tag">Scikit-learn</span>
+                    <span class="tag">XGBoost</span>
+                    <span class="tag">Prophet</span>
+                    <span class="tag">OR-Tools</span>
+                </div>
+            </div>
+            <div class="skill-tile">
+                <h4 class="skill-category">Geospatial</h4>
+                <div class="skill-tags">
+                    <span class="tag">GeoPandas</span>
+                    <span class="tag">Folium</span>
+                    <span class="tag">Shapely</span>
+                    <span class="tag">QGIS</span>
+                </div>
+            </div>
+            <div class="skill-tile">
+                <h4 class="skill-category">BI &amp; Visualization</h4>
+                <div class="skill-tags">
+                    <span class="tag">Tableau</span>
+                    <span class="tag">Power BI</span>
+                    <span class="tag">Matplotlib</span>
+                    <span class="tag">Seaborn</span>
+                </div>
+            </div>
+            <div class="skill-tile">
+                <h4 class="skill-category">Data &amp; Tools</h4>
+                <div class="skill-tags">
+                    <span class="tag">Excel</span>
+                    <span class="tag">Google Sheets</span>
+                    <span class="tag">Jupyter</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">GitHub</span>
+                </div>
+            </div>
+            <div class="skill-tile">
+                <h4 class="skill-category">Domains</h4>
+                <div class="skill-tags">
+                    <span class="tag">Forecasting</span>
+                    <span class="tag">Optimization</span>
+                    <span class="tag">Spatial Analysis</span>
+                    <span class="tag">Financial Analytics</span>
+                    <span class="tag">Supply Chain</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">My Tech Stack</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>🐍 Programming & Analysis</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">R</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">VBA</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>📊 Data Viz & BI Tools</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Tableau</span>
-                        <span class="skill-tag">Power BI</span>
-                        <span class="skill-tag">Plotly</span>
-                        <span class="skill-tag">Seaborn</span>
-                        <span class="skill-tag">Matplotlib</span>
-                        <span class="skill-tag">ggplot2</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>🤖 ML & Data Science</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">XGBoost</span>
-                        <span class="skill-tag">Random Forest</span>
-                        <span class="skill-tag">Scikit-learn</span>
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">NumPy</span>
-                        <span class="skill-tag">SHAP</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>🛠️ Tools & Specializations</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Jupyter</span>
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Process Mining</span>
-                        <span class="skill-tag">Cost-Benefit Analysis</span>
-                        <span class="skill-tag">RFM Analysis</span>
-                        <span class="skill-tag">Educational Analytics</span>
-                    </div>
-                </div>
+    <!-- Section 5 — Contact / Footer -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p>Always excited to chat about data, collaborate on interesting projects, or discuss co-op opportunities. Whether you're a recruiter, fellow student, or just someone who loves data — let's connect.</p>
+            <div class="contact-links">
+                <a href="mailto:nisargpatel1717@gmail.com" class="contact-link">
+                    <!-- Email SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    nisargpatel1717@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/nisarg-patel-25b876234/" target="_blank" class="contact-link">
+                    <!-- LinkedIn SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/Nishu1717" target="_blank" class="contact-link">
+                    <!-- GitHub SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                    GitHub
+                </a>
             </div>
-        </div>
-    </section>    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Finance Risk & Fraud Detection</h3>
-                        <p>An end-to-end XGBoost fraud detection system optimized for financial cost-benefit analysis, achieving $917k projected savings. Features SHAP explainability and custom threshold optimization for business-centric decision making.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">XGBoost</span>
-                            <span class="tech-tag">SHAP</span>
-                            <span class="tech-tag">Cost-Benefit Analysis</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Nishu1717/Finance-Risk-Fraud-Detection" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i> View on GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-university"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Student Churn Early Warning System</h3>
-                        <p>Built an Early Warning System using 10M+ OULAD clickstream records to predict at-risk students by Week 4 with 70% precision. Discovered that behavioral momentum is 5x stronger predictor than demographics.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Random Forest</span>
-                            <span class="tech-tag">Pandas</span>
-                            <span class="tech-tag">Educational Analytics</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Nishu1717/OULAD-Student-Churn-Analysis" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i> View on GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-coins"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Loan Process Optimization</h3>
-                        <p>Data-driven process mining and optimization of a bank's loan funding lifecycle using BPI 2017 dataset. Identified bottlenecks and proposed AI-OCR integration to reduce processing time by 90%.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Process Mining</span>
-                            <span class="tech-tag">Optimization</span>
-                            <span class="tech-tag">Load Balancing</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Nishu1717/Loan-Process-Optimisation" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i> View on GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-shopping-cart"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Olist E-Commerce Analytics</h3>
-                        <p>A comprehensive data analytics project featuring RFM segmentation, Customer Lifetime Value (CLV) modeling, and logistics performance correlation analysis on the Brazilian Olist e-commerce dataset.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">RFM Analysis</span>
-                            <span class="tech-tag">CLV Modeling</span>
-                            <span class="tech-tag">Jupyter</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Nishu1717/olist-ecommerce-analytics" class="project-link" target="_blank">
-                                <i class="fab fa-github"></i> View on GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="What's on your mind? Project ideas, job opportunities, or just want to say hi!" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Let's Connect!</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <p>Always excited to chat about data, collaborate on interesting projects, or just geek out about the latest ML trends! Whether you're a fellow student, potential employer, or just someone who loves data as much as I do - let's connect! ✨</p>
-                    <div class="contact-methods">
-                        <div class="contact-method">
-                            <i class="fas fa-envelope"></i>
-                            <a href="mailto:nisargpatel1717@gmail.com">nisargpatel1717@gmail.com</a>
-                        </div>
-                        <div class="contact-method">
-                            <i class="fab fa-linkedin"></i>
-                            <a href="https://www.linkedin.com/in/nisarg-patel-25b876234/" target="_blank">Connect on LinkedIn</a>
-                        </div>
-                        <div class="contact-method">
-                            <i class="fab fa-github"></i>
-                            <a href="https://github.com/Nishu1717" target="_blank">Check out my GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" placeholder="What's on your mind? Project ideas, job opportunities, or just want to say hi!" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Nisarg Patel. All rights reserved.</p>
-        </div>
+        <div class="footer-line"></div>
+        <p>&copy; 2025 Nisarg Patel</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
