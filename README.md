@@ -1,4 +1,4 @@
-# Nisarg Patel — Data Analyst Portfolio
+# Nisarg Patel - A Data Analyst's Portfolio
 
 A clean, minimal portfolio website built to showcase data analytics projects, technical skills, and contact information. Designed for recruiters and hiring managers who need to quickly assess capabilities.
 
