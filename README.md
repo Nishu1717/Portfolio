@@ -1,6 +1,6 @@
 # Nisarg Patel - A Data Analyst's Portfolio
 
-A clean, minimal portfolio website built to showcase data analytics projects, technical skills, and contact information. Designed for recruiters and hiring managers who need to quickly assess capabilities.
+A clean, minimal portfolio website built to showcase my data analytics projects, technical skills, and contact information. Designed for recruiters and hiring managers who need to quickly assess capabilities or just know me.
 
 ## Live Demo
 
@@ -14,15 +14,6 @@ A clean, minimal portfolio website built to showcase data analytics projects, te
 - **Google Fonts** — Cormorant Garamond (headings), DM Mono (labels & body)
 
 No external JS libraries, no build tools, no third-party dependencies.
-
-## Page Structure
-
-| Section | Description |
-|---------|-------------|
-| **Hero** | Name, positioning statement, about paragraph, resume/project CTAs, profile photo |
-| **Projects** | 2-column card grid with outcome descriptions, tool tags, and GitHub links |
-| **Skills** | 6 grouped tiles — Languages, Libraries & ML, Geospatial, BI & Visualization, Data & Tools, Domains |
-| **Contact** | Info + icon links on left, contact form on right |
 
 ## Projects Showcased
 
@@ -52,14 +43,6 @@ Portfolio/
 │   └── resume.pdf    # Downloadable resume
 └── README.md
 ```
-
-## Deployment
-
-Deployed via GitHub Pages:
-
-1. Push to the repository
-2. Enable GitHub Pages in Settings → Pages → Source: main branch
-3. Site available at `https://nishu1717.github.io/portfolio`
 
 ## Contact
 
